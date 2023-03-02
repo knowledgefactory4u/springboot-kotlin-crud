@@ -10,7 +10,7 @@ import java.util.*
 
 
 @RestController
-@RequestMapping("/api/v1/")
+@RequestMapping("/api/v1")
 @CrossOrigin(origins = arrayOf("http://localhost:3000"))
 class UserController(private val userRepository: UserRepository) {
 
